@@ -35,7 +35,7 @@ git clone https://github.com/azsantoss/Monitor-ICMP
 # Entre no diretório
 cd Monitor-ICMP
 ```
-2 - Renomeie o arquivo "config.php.sample" para "config.php"
+2 - Renomeie o arquivo "config.php.sample" para "config.php"</br>
 3 - Execute o arquivo install.php para prosseguir com a instalação:
 ```bash
 http://SeuIp/Monitor-ICMP/install.php
