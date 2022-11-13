@@ -36,15 +36,24 @@ git clone https://github.com/azsantoss/Monitor-ICMP
 cd Monitor-ICMP
 ```
 2 - Renomeie o arquivo "config.php.sample" para "config.php"
-3 - Configure as suas credenciais do Banco de dados do arquvio config.php. (usuario, senha e base de dados).
-```bash
-define('PSM_DB_USER',  'usuario-mysql');
-define('PSM_DB_PASS',  'senha-mysql');
-define('PSM_DB_NAME',  'banco-teste');
-```
-4 - Execute o arquivo install.php para prosseguir com a instalação:
+3 - Execute o arquivo install.php para prosseguir com a instalação:
 ```bash
 http://SeuIp/Monitor-ICMP/install.php
+```
+4 - Configure as suas credenciais do Banco de dados do arquvio config.php. (usuario, senha e base de dados).
+```bash
+<?php
+define('PSM_DB_HOST', 'localhost');
+define('PSM_DB_PORT', '3306');
+define('PSM_DB_NAME', 'banco_existente');
+define('PSM_DB_USER', 'usuario-mysql');
+define('PSM_DB_PASS', 'senha-mysql');
+define('PSM_DB_PREFIX', 'psm_');
+define('PSM_BASE_URL', 'http://SeuIp/monitor-ICMP');
+```
+5 - Configure as suas credenciais do Banco de dados do arquvio dashboard.php. (usuario, senha e base de dados).
+```bash
+$mysqli = new mysqli("localhost", "usuario-mysql", "senha-mysql", "banco_existente");
 ```
 ---
 

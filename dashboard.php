@@ -41,9 +41,9 @@
           <a class="brand" href="index.php">Monitor ICMP</a>
 <div class="nav-collapse">
   <ul class="nav">
-	  	  <li class="active"><a href="http://localhost/htdocs/monitor/dashboard.php">Dashboard</a></li>
-	  	  <li class=""><a href="http://localhost/htdocs/monitor/?&amp;mod=server">Servidores</a></li>
-	  	  <li class=""><a href="http://localhost/htdocs/monitor/?&amp;mod=config">Configuração</a></li>
+	  	  <li class="active"><a href="dashboard.php">Dashboard</a></li>
+	  	  <li class=""><a href="http://localhost/monitor-ICMP/?&amp;mod=server">Servidores</a></li>
+	  	  <li class=""><a href="http://localhost/monitor-ICMP/?&amp;mod=config">Configuração</a></li>
         <li class=""><a target="_blank" href="https://github.com/azsantoss/Monitor-ICMP">Atualização</a></li>
 	  	  <li id="nav_option_help">
 		  <a href="Monitorsupport" target="_blank"></a>
@@ -53,13 +53,13 @@
 	<li class="dropdown visible-desktop">
 	  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Bem vindo, admin <b class="caret"></b></a>
 	  <ul class="dropdown-menu">
-		<li><a href="http://localhost/htdocs/monitor/?&amp;mod=user_profile"><i class="icon-cog"></i>&nbsp;Perfil</a></li>
-		<li><a href="http://localhost/htdocs/monitor/?&amp;logout=1"><i class="icon-off"></i>&nbsp;Logout</a></li>
+		<li><a href="http://localhost/monitor-ICMP/?&amp;mod=user_profile"><i class="icon-cog"></i>&nbsp;Perfil</a></li>
+		<li><a href="http://localhost/monitor-ICMP/?&amp;logout=1"><i class="icon-off"></i>&nbsp;Logout</a></li>
 	  </ul>
 	</li>
 	<li class="hidden-desktop divider"></li>
-	<li class="hidden-desktop"><a href="http://localhost/htdocs/monitor/?&amp;mod=user_profile">Perfil</a></li>
-	<li class="hidden-desktop"><a href="http://localhost/htdocs/monitor/?&amp;logout=1">Logout</a></li>
+	<li class="hidden-desktop"><a href="http://localhost/monitor-ICMP/?&amp;mod=user_profile">Perfil</a></li>
+	<li class="hidden-desktop"><a href="http://localhost/monitor-ICMP/?&amp;logout=1">Logout</a></li>
   </ul>
 </div>
         </div>

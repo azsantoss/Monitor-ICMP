@@ -1,6 +1,6 @@
 <div class="nav-collapse">
   <ul class="nav">
-	<li class=""><a href="http://localhost/htdocs/monitor/dashboard.php">Dashboard</a></li>
+	<li class=""><a href="dashboard.php">Dashboard</a></li>
 	  {% for item in menu %}
 	  <li class="{{ item.active }}"><a href="{{ item.url|raw }}">{{ item.label }}</a></li>
 	  {% endfor %}
